@@ -1,0 +1,67 @@
+=========================================
+ПРОВЕРКА ЦЕЛОСТНОСТИ АРХИВОВ OBJECTS365
+=========================================
+Директория: object365/images/train
+Архивы: patch0.tar.gz - patch50.tar.gz
+=========================================
+
+✅ patch0.tar.gz - ЦЕЛ
+✅ patch1.tar.gz - ЦЕЛ
+✅ patch2.tar.gz - ЦЕЛ
+✅ patch3.tar.gz - ЦЕЛ
+✅ patch4.tar.gz - ЦЕЛ
+✅ patch5.tar.gz - ЦЕЛ
+✅ patch6.tar.gz - ЦЕЛ
+✅ patch7.tar.gz - ЦЕЛ
+✅ patch8.tar.gz - ЦЕЛ
+✅ patch9.tar.gz - ЦЕЛ
+✅ patch10.tar.gz - ЦЕЛ
+✅ patch11.tar.gz - ЦЕЛ
+✅ patch12.tar.gz - ЦЕЛ
+✅ patch13.tar.gz - ЦЕЛ
+✅ patch14.tar.gz - ЦЕЛ
+✅ patch15.tar.gz - ЦЕЛ
+✅ patch16.tar.gz - ЦЕЛ
+✅ patch17.tar.gz - ЦЕЛ
+✅ patch18.tar.gz - ЦЕЛ
+✅ patch19.tar.gz - ЦЕЛ
+✅ patch20.tar.gz - ЦЕЛ
+✅ patch21.tar.gz - ЦЕЛ
+✅ patch22.tar.gz - ЦЕЛ
+✅ patch23.tar.gz - ЦЕЛ
+✅ patch24.tar.gz - ЦЕЛ
+✅ patch25.tar.gz - ЦЕЛ
+✅ patch26.tar.gz - ЦЕЛ
+✅ patch27.tar.gz - ЦЕЛ
+✅ patch28.tar.gz - ЦЕЛ
+✅ patch29.tar.gz - ЦЕЛ
+✅ patch30.tar.gz - ЦЕЛ
+✅ patch31.tar.gz - ЦЕЛ
+✅ patch32.tar.gz - ЦЕЛ
+✅ patch33.tar.gz - ЦЕЛ
+✅ patch34.tar.gz - ЦЕЛ
+✅ patch35.tar.gz - ЦЕЛ
+✅ patch36.tar.gz - ЦЕЛ
+✅ patch37.tar.gz - ЦЕЛ
+✅ patch38.tar.gz - ЦЕЛ
+✅ patch39.tar.gz - ЦЕЛ
+✅ patch40.tar.gz - ЦЕЛ
+✅ patch41.tar.gz - ЦЕЛ
+✅ patch42.tar.gz - ЦЕЛ
+✅ patch43.tar.gz - ЦЕЛ
+✅ patch44.tar.gz - ЦЕЛ
+✅ patch45.tar.gz - ЦЕЛ
+✅ patch46.tar.gz - ЦЕЛ
+✅ patch47.tar.gz - ЦЕЛ
+✅ patch48.tar.gz - ЦЕЛ
+✅ patch49.tar.gz - ЦЕЛ
+✅ patch50.tar.gz - ЦЕЛ
+
+=========================================
+РЕЗУЛЬТАТЫ ПРОВЕРКИ
+=========================================
+✅ Целых: 51
+❌ Битых: 0
+❌ Отсутствует: 0
+▒▒ Всего проверено: 51
+
