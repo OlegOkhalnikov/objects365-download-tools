@@ -9,6 +9,7 @@
 | `download_objects365.sh` | Загрузка всех 51 архивов с автоматическим переключением методов и докачкой |
 | `check_targz.sh` | Проверка целостности загруженных архивов |
 | `redownload_bad.sh` | Выборочная перезагрузка поврежденных архивов |
+| `download_annotations.sh` | Загрузчик аннотаций |
 
 ## 🚀 Быстрый старт
 
@@ -21,6 +22,9 @@
 
 # 3. Если есть битые - перезагрузить
 ./redownload_bad.sh
+
+# 4. Загрузить JSON-аннотации
+./download_annotations.sh 
 ```
 
 ## 📚 Документация
@@ -32,9 +36,21 @@
 | [doc/download_objects365.md](doc/download_objects365.md)| Описание скрипта для загрузки датасета Objects365 |
 | [doc/redownload_bad.sh](doc/redownload_bad.sh)| Описание Скрипта для перезагрузки поврежденных архивов |
 | [doc/check_targz.md](doc/check_targz.md)| Описание скрипта для проверки целостности архивов |
+| [doc/download_annotations.md](doc/download_annotations.md) | Загрузчик аннотаций Objects365 |
+| [doc/tips_and_tricks.md](doc/tips_and_tricks.md) | Полезные команды |
 
 ## 📊 Характеристики датасета
-
+```
+object365/
+├── images/
+│   └── train/           # 51 архив (после распаковки - папки patch0...patch50 с изображениями)
+│       ├── patch0.tar.gz
+│       ├── patch1.tar.gz
+│       └── ...
+└── annotations/         # Аннотации (разметка)
+    ├── train.json       # ~10+ млн bounding boxes
+    └── val.json         # валидационная выборка
+```
 - **Количество архивов**: 51 (`patch0.tar.gz` - `patch50.tar.gz`)
 - **Общий размер**: 327 ГБ
 - **После распаковки**: ~1.5 ТБ
