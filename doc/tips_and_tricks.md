@@ -165,8 +165,13 @@ brew install curl wget parallel
 ```
 
 **Windows:**
+
+Установите Chocolatey (если не установлен). Запустите PowerShell от имени администратора и выполните команду:
 ```powershell
-# Chocolatey (если установлен)
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+```powershell
+# Установить: curl wget 7zip
 choco install curl wget 7zip
 
 # Или скачайте вручную:
